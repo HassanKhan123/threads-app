@@ -6,6 +6,7 @@ import Topbar from "@/components/shared/Topbar";
 import LeftSidebar from "@/components/shared/LeftSidebar";
 import RightSidebar from "@/components/shared/RightSIdebar";
 import BottomBar from "@/components/shared/Bottombar";
+import Bottombar from "@/components/shared/Bottombar";
 
 export const metadata = {
   title: "Threads",
@@ -33,7 +34,7 @@ export default function RootLayout({
             <RightSidebar />
           </main>
 
-          <BottomBar />
+          <Bottombar />
         </body>
       </html>
     </ClerkProvider>
